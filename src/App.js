@@ -8,14 +8,7 @@ class App extends Component {
     render() {
         return (
             <div className="App container">
-                <Navbar fluid collapseOnSelect>
-                    <Navbar.Header>
-                        <Navbar.Brand>
-                            <Link to="/">Appnatomy</Link>
-                        </Navbar.Brand>
-                        <Navbar.Toggle />
-                    </Navbar.Header>
-                </Navbar>
+
                 <Routes />
             </div>
         );
